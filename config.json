@@ -1,0 +1,27 @@
+{
+  "data": {
+    "catalog_path": "data/filtered.fits",
+    "survey_info_path": "tel_svy.txt"
+  },
+  "analysis": {
+    "dnu": 400.0,
+    "halo_dm": 30.0
+  },
+  "cosmology": {
+    "H0": 67.8,
+    "Omega_m": 0.308,
+    "Omega_L": 0.692
+  },
+  "prior": {
+    "log_phis": [0.0, 5.0],
+    "alpha": [-4.0, 2.0],
+    "log_Es": [39.0, 44.0],
+    "log_E0": [38.0, 41.0],
+    "mu_w": [-4.0, 0.0],
+    "sigma_w": [-3.0, 1.0]
+  },
+  "output": {
+    "nest_out_dir": "nest_out/",
+    "plot_dir": "plots/"
+  }
+}

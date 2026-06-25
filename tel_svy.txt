@@ -1,0 +1,5 @@
+# CHIME/FRB Catalog 2 巡天参数
+# 来源: CHIME/FRB Collaboration et al. 2026; arXiv:2602.19335
+# 注意: 这些是近似值，精确值需参考 CHIME/FRB 官方文档
+SURVEY  FOV     TIME    Gain    Tsys    Npol    SN0     BW
+CHIME   200.0   1.0     1.4     50.0    2       10.0    400.0
